@@ -2,7 +2,7 @@
 
 A simple server for hosting a [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) instance using [Litserve](https://lightning.ai/docs/litserve/home). Built with speed in mind and packaged with [`uv`](https://github.com/astral-sh/uv).
 
-The code was adapted from the following pytorch lightning [guide](https://lightning.ai/sitammeur/studios/deploy-kokoro-tts-model?section=featured).
+The code was adapted from the following [pytorch lightning guide](https://lightning.ai/sitammeur/studios/deploy-kokoro-tts-model?section=featured).
 
 ## 🧰 Tech Stack
 
@@ -25,7 +25,7 @@ The code was adapted from the following pytorch lightning [guide](https://lightn
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/your-username/tts-server.git
+   git clone https://github.com/Grass-Bean/tts-server.git
    cd tts-server
    ```
 
@@ -83,4 +83,4 @@ You may adapt the included client.py file for your specific use case.
 
 ## 📄 License
 
-MIT License – see LICENSE file for details.
+MIT License – see [LICENSE file](LICENSE) for details.
