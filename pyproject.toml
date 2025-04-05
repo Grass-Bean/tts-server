@@ -1,0 +1,14 @@
+[project]
+name = "tts-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kokoro>=0.9.2",
+    "litserve>=0.2.7",
+    "misaki[ja,zh]>=0.9.3",
+    "pillow==11.1.0",
+    "pip>=25.0.1",
+    "soundfile>=0.13.1",
+]
