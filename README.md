@@ -29,12 +29,18 @@ The code was adapted from the following [pytorch lightning guide](https://lightn
    cd tts-server
    ```
 
-2. **Install dependencies (except torch)**
+2. **Create Virtual Environment**
+    ```
+    uv venv
+    .venv\Scripts\Activate
+    ```
+
+3. **Install dependencies (except torch)**
     ```
     uv sync
     ```
 
-3. **Manually install PyTorch**
+4. **Manually install PyTorch**
     Visit https://pytorch.org/get-started/locally and install the appropriate version for your system.
 
     Example (CUDA 12.6):
@@ -42,7 +48,7 @@ The code was adapted from the following [pytorch lightning guide](https://lightn
     uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
     ```
 
-4. **Run the server Run the provided .bat file:**
+5. **Run the server Run the provided .bat file:**
     ```
     start_server.bat
     ```
